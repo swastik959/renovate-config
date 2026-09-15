@@ -532,6 +532,7 @@
         "global:[\\s\\S]*?kubectl:[\\s\\S]*?repository:\\s(?<depName>.*?)\\n[\\s\\S]*?tag:\\s(?<currentValue>.*?)\\n"
       ],
       "datasourceTemplate": "docker",
+      "depTypeTemplate": "image",
       "description": "usage of rancher/kubectl in global.kubectl in Helm chart"
     },
     {

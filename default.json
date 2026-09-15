@@ -526,7 +526,7 @@
     {
       "customType": "regex",
       "managerFilePatterns": [
-        "/values.yaml$/"
+        "/values\\.yaml$/"
       ],
       "matchStrings": [
         "global:[\\s\\S]*?kubectl:[\\s\\S]*?repository:\\s(?<depName>.*?)\\n[\\s\\S]*?tag:\\s(?<currentValue>.*?)\\n"

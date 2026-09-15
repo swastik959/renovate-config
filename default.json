@@ -975,14 +975,14 @@
       "enabled": false
     },
     {
-      "description": "Disable major bumps",
+      "description": "Disable major bumps for rancher/kuberlr-kubectl",
       "matchPackageNames": [
         "rancher/kuberlr-kubectl"
       ],
       "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ]
+        "major"
+      ],
+      "enabled": false
     },
     {
       "description": "Group and restrict rancherlabs/slsactl (GitHub tag and version parameter)",
